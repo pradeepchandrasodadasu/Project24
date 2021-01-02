@@ -6,8 +6,8 @@ class Ground {
  
         }
         this.body = Bodies.rectangle(x,y,w,h,ground_options);
-        this.body.width = w;
-        this.body.height = h;
+        this.width = w;
+        this.height = h;
 
         World.add(world,this.body);
     }
@@ -17,7 +17,7 @@ class Ground {
         rectMode(CENTER);
         fill("brown");
         stroke("brown");
-        rect(pos.x,pos.y,this.body.width,this.body.height);
+        rect(pos.x,pos.y,this.width,this.height);
      
 
     }
