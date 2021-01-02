@@ -45,8 +45,6 @@ function draw() {
   box1.display();
   box2.display();
   box3.display();
-  
-  drawSprites();
  
 }
 
