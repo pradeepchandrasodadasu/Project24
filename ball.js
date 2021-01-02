@@ -8,9 +8,6 @@ class Paper {
 
         }
         this.body = Bodies.circle(x,y,r/2,ball_options);
-        this.body.radius = r;
-        this.body.x = x;
-        this.body.y = y;
         World.add(world,this.body);
     }
 
