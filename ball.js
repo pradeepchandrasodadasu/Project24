@@ -19,10 +19,10 @@ class Paper {
         var pos = this.body.position;
 
         push();
-        translate(pos.x,pos.y);
+        
         fill("blue");
         stroke("black");
-        ellipse(0,0,this.body.radius,this.body.radius);
+        ellipse(pos.x,pos.y,this.body.circleRadius,this.body.circleRadius);
         pop();
      
 
